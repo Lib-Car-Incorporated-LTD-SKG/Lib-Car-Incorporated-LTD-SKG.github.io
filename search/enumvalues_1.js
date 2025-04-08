@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['pca_5fchannel_5f0_0',['PCA_CHANNEL_0',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fa930dd71cfa0acda464e3ae02c897505c',1,'types.h']]],
+  ['pca_5fchannel_5f1_1',['PCA_CHANNEL_1',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fadb38f64a6d2be33b4d468a37248fce98',1,'types.h']]],
+  ['pca_5fchannel_5f10_2',['PCA_CHANNEL_10',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fa4386fbfe780118871cfa7bb7f370cc79',1,'types.h']]],
+  ['pca_5fchannel_5f11_3',['PCA_CHANNEL_11',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fa07cafb1ea58890129491ef79eaa1c3ea',1,'types.h']]],
+  ['pca_5fchannel_5f12_4',['PCA_CHANNEL_12',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fa14318482809c0c1bb5de4adf2c6568e9',1,'types.h']]],
+  ['pca_5fchannel_5f13_5',['PCA_CHANNEL_13',['../types_8h.html#ac165e9ca56612db365d21455e740cd9faf2249510963fcedd60b843fd1f694fd8',1,'types.h']]],
+  ['pca_5fchannel_5f14_6',['PCA_CHANNEL_14',['../types_8h.html#ac165e9ca56612db365d21455e740cd9faeca21817004558630c8e55f8746e21d4',1,'types.h']]],
+  ['pca_5fchannel_5f15_7',['PCA_CHANNEL_15',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fafac5edcdf68e7cfa855ed631cbf620ac',1,'types.h']]],
+  ['pca_5fchannel_5f2_8',['PCA_CHANNEL_2',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fa87eb35f0c1f725f5938c785dc8aed27c',1,'types.h']]],
+  ['pca_5fchannel_5f3_9',['PCA_CHANNEL_3',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fa99675d28bd96ec444c45a566a02de222',1,'types.h']]],
+  ['pca_5fchannel_5f4_10',['PCA_CHANNEL_4',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fa22f7ab1dccbb887e3b01601e8f2fc6eb',1,'types.h']]],
+  ['pca_5fchannel_5f5_11',['PCA_CHANNEL_5',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fa5096d4317400c87b3027073b432ccf8a',1,'types.h']]],
+  ['pca_5fchannel_5f6_12',['PCA_CHANNEL_6',['../types_8h.html#ac165e9ca56612db365d21455e740cd9fad6b1c69196170a7b3aadae04d6703e3f',1,'types.h']]],
+  ['pca_5fchannel_5f7_13',['PCA_CHANNEL_7',['../types_8h.html#ac165e9ca56612db365d21455e740cd9faf3ae8928d17bb4157b59be04cb4801b3',1,'types.h']]],
+  ['pca_5fchannel_5f8_14',['PCA_CHANNEL_8',['../types_8h.html#ac165e9ca56612db365d21455e740cd9faa469b18cbd498a28ff04e761c885e0b4',1,'types.h']]],
+  ['pca_5fchannel_5f9_15',['PCA_CHANNEL_9',['../types_8h.html#ac165e9ca56612db365d21455e740cd9faa88f8e5802418dfd59bde826ad093fd7',1,'types.h']]]
+];
