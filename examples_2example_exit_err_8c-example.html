@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libCar: Class Index</title>
+<title>libCar: examples/example_exit_err.c</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -77,7 +77,7 @@ $(function() { codefold.init(0); });
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('classes.html',''); initResizable(true); });
+$(function(){initNavTree('examples_2example_exit_err_8c-example.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -103,16 +103,36 @@ $(function(){initNavTree('classes.html',''); initResizable(true); });
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Class Index</div></div>
+  <div class="headertitle"><div class="title">examples/example_exit_err.c</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="qindex"><a class="qindex" href="#letter_G">G</a></div>
-<div class="classindex">
-<dl class="classindex even">
-<dt class="alphachar"><a id="letter_G" name="letter_G">G</a></dt>
-<dd><a class="el" href="structgpio__i2c__state.html">gpio_i2c_state</a></dd><dd><a class="el" href="structgpio__state.html">gpio_state</a></dd></dl>
-</div>
-</div><!-- contents -->
+<p>Handles GPIO errors by printing an error message, cleaning up, and exiting.</p>
+<p>Handles GPIO errors by printing an error message, cleaning up, and exiting.This function checks the result of a GPIO operation. If the operation failed (i.e., <code>resultant</code> is not equal to <code>GPIO_SUCCESS</code>), it logs an error message to <code>stderr</code> using the corresponding message from the <code>errs</code> array, calls <code>gpio_deinit</code> to clean up the GPIO state, and exits the program with <code>EXIT_FAILURE</code>.</p>
+<p>If the operation was successful, the function simply returns <code>GPIO_SUCCESS</code>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>Pointer to the current GPIO state structure. </td></tr>
+    <tr><td class="paramname">resultant</td><td>The result code from a previous GPIO operation. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Always returns <code>GPIO_SUCCESS</code> if the operation did not fail.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>gpio_statuses</dd></dl>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &quot;gpio.h&quot;</span></div>
+<div class="line"> </div>
+<div class="line"> </div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main() {</div>
+<div class="line">    <a id="_a0" name="_a0"></a><a class="code hl_struct" href="structgpio__state.html">gpio_state</a> state;</div>
+<div class="line">    </div>
+<div class="line">    <span class="comment">// exit_err will exit with an error message if</span></div>
+<div class="line">    <span class="comment">// the function being nested into it returns a non</span></div>
+<div class="line">    <span class="comment">// GPIO_SUCCESS (0) value</span></div>
+<div class="line">    <span class="comment">//                        vvv This function</span></div>
+<div class="line">    gpio_exit_err(&amp;state, gpio_init(&amp;state, GPIO_INIT_GPIO));</div>
+<div class="line">}</div>
+<div class="ttc" id="astructgpio__state_html"><div class="ttname"><a href="structgpio__state.html">gpio_state</a></div><div class="ttdef"><b>Definition</b> gpio.h:26</div></div>
+</div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

@@ -31,11 +31,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="LibCarIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">libCar<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">libCar<span id="projectnumber">&#160;1</span>
    </div>
-   <div id="projectbrief">A library for programming a car in GTA V</div>
+   <div id="projectbrief">The world&#39;s best car library which is better than tesla</div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -107,7 +106,7 @@ $(function(){initNavTree('types_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">types.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="types_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">/***************************************************************</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* Class:: CSC-615-01 Spring 2024</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">* Name:: Ryan Algazi</span></div>
@@ -129,124 +128,79 @@ $(function(){initNavTree('types_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">// standard bit width types (mostly)</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">// renamed for my convenience</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="types_8h.html#a1c8da993e3b2ea945b90aee4361ad4fc">   23</a></span><span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <a class="code hl_typedef" href="types_8h.html#a1c8da993e3b2ea945b90aee4361ad4fc">uflags</a>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="types_8h.html#ad8e5ee49dd47723c9d520cb90cb3e00c">   24</a></span><span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code hl_typedef" href="types_8h.html#ad8e5ee49dd47723c9d520cb90cb3e00c">usize</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> uflags;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> usize;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">   26</a></span><span class="keyword">typedef</span> uint8_t <a class="code hl_typedef" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="types_8h.html#ae3702327b5f47e83b431e22b33da7b58">   27</a></span><span class="keyword">typedef</span> int8_t <a class="code hl_typedef" href="types_8h.html#ae3702327b5f47e83b431e22b33da7b58">i8</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">typedef</span> uint8_t u8;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">typedef</span> int8_t i8;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">   29</a></span><span class="keyword">typedef</span> uint16_t <a class="code hl_typedef" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="types_8h.html#ad309dbcaeea13aa602d686964156ea0b">   30</a></span><span class="keyword">typedef</span> int16_t <a class="code hl_typedef" href="types_8h.html#ad309dbcaeea13aa602d686964156ea0b">i16</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">typedef</span> uint16_t u16;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">typedef</span> int16_t i16;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">   32</a></span><span class="keyword">typedef</span> uint32_t <a class="code hl_typedef" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="types_8h.html#a48d6cd8e4135fb2ff7e7f2dac84089ec">   33</a></span><span class="keyword">typedef</span> int32_t <a class="code hl_typedef" href="types_8h.html#a48d6cd8e4135fb2ff7e7f2dac84089ec">i32</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">typedef</span> uint32_t u32;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">typedef</span> int32_t i32;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="types_8h.html#a3f7e2bcbb0b4c338f3c4f6c937cd4234">   35</a></span><span class="keyword">typedef</span> uint64_t <a class="code hl_typedef" href="types_8h.html#a3f7e2bcbb0b4c338f3c4f6c937cd4234">u64</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="types_8h.html#a85cb35fbe5bf2961d7ad5f26814a91a2">   36</a></span><span class="keyword">typedef</span> int64_t <a class="code hl_typedef" href="types_8h.html#a85cb35fbe5bf2961d7ad5f26814a91a2">i64</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">typedef</span> uint64_t u64;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">typedef</span> int64_t i64;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">   38</a></span><span class="keyword">typedef</span> uint8_t <a class="code hl_typedef" href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">typedef</span> uint8_t bool;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">// TODO: Partition GPIO statuses into 2 16-bit sections</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">// and reserve the additional 16 bits for more specific information</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">// (which function failed, underlying reason, etc)</span></div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="};">
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="types_8h.html#a990a63e18bed194495db89943babd662">   43</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="types_8h.html#a990a63e18bed194495db89943babd662">gpio_statuses</a> {</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="types_8h.html#a990a63e18bed194495db89943babd662ac600669d7dff707f9b211cee2bb19111">   44</a></span>    <a class="code hl_enumvalue" href="types_8h.html#a990a63e18bed194495db89943babd662ac600669d7dff707f9b211cee2bb19111">GPIO_SUCCESS</a>,</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="types_8h.html#a990a63e18bed194495db89943babd662ac0a8c62ac5759545678dee44b12cc529">   45</a></span>    <a class="code hl_enumvalue" href="types_8h.html#a990a63e18bed194495db89943babd662ac0a8c62ac5759545678dee44b12cc529">GPIO_TIMEOUT</a>,</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="types_8h.html#a990a63e18bed194495db89943babd662a8bb5c8044f38cdd41f162e70932980ea">   46</a></span>    <a class="code hl_enumvalue" href="types_8h.html#a990a63e18bed194495db89943babd662a8bb5c8044f38cdd41f162e70932980ea">GPIO_ERR_MMAP</a>,</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="types_8h.html#a990a63e18bed194495db89943babd662a95627532e2f71102ac634fa81a4fe066">   47</a></span>    <a class="code hl_enumvalue" href="types_8h.html#a990a63e18bed194495db89943babd662a95627532e2f71102ac634fa81a4fe066">GPIO_ERR_IO_I2C</a>,</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="types_8h.html#a990a63e18bed194495db89943babd662aaf52913ae0aa6108502403b3cfc3e1da">   48</a></span>    <a class="code hl_enumvalue" href="types_8h.html#a990a63e18bed194495db89943babd662aaf52913ae0aa6108502403b3cfc3e1da">GPIO_ERR_MEMORY</a>,</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">enum</span> gpio_statuses {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    GPIO_SUCCESS,</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    GPIO_TIMEOUT,</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    GPIO_ERR_MMAP,</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    GPIO_ERR_IO_I2C,</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    GPIO_ERR_MEMORY,</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
-</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="foldopen" id="foldopen00051" data-start="{" data-end="};">
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="types_8h.html#aee2194ceed0327529a6d911ec72132d6">   51</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="types_8h.html#aee2194ceed0327529a6d911ec72132d6">gpio_init_flags</a> {</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="types_8h.html#aee2194ceed0327529a6d911ec72132d6a6add92b672913bb2b793c95af8cf02b9">   52</a></span>    <a class="code hl_enumvalue" href="types_8h.html#aee2194ceed0327529a6d911ec72132d6a6add92b672913bb2b793c95af8cf02b9">GPIO_INIT_GPIO</a> = 1,</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="types_8h.html#aee2194ceed0327529a6d911ec72132d6ad24b1cbfb14dfe7cb2e53835f66f6641">   53</a></span>    <a class="code hl_enumvalue" href="types_8h.html#aee2194ceed0327529a6d911ec72132d6ad24b1cbfb14dfe7cb2e53835f66f6641">GPIO_INIT_I2C</a> = 2,</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">enum</span> gpio_init_flags {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    GPIO_INIT_GPIO = 1,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    GPIO_INIT_I2C = 2,</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}; </div>
-</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="types_8h.html#a89eb44bbbca95a5c253108c1ec981ac0">   57</a></span><span class="preprocessor">#define GPIO_INIT_COUNT 2</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define GPIO_INIT_COUNT 2</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="types_8h.html#a097f926c18d99cde505bde064316927e">   59</a></span><span class="preprocessor">#define PCA_REG_PART_LO 0</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="types_8h.html#a1df08986349d4d722f77df9fc19c0124">   60</a></span><span class="preprocessor">#define PCA_REG_PART_HI 1</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define PCA_REG_PART_LO 0</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#define PCA_REG_PART_HI 1</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="types_8h.html#a9b3f2f5e9b4ed5db26023801e601156c">   62</a></span><span class="preprocessor">#define PCA_REG_MODE_ON 0</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="types_8h.html#aac4624ce44951f0e3d222d37a1001f43">   63</a></span><span class="preprocessor">#define PCA_REG_MODE_OFF 2</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#define PCA_REG_MODE_ON 0</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#define PCA_REG_MODE_OFF 2</span></div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="types_8h.html#a0cd95d7ad94580c82c9e759531daad57">   65</a></span><span class="preprocessor">#define PCA_BASE_REG 0x06</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#define PCA_BASE_REG 0x06</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="foldopen" id="foldopen00067" data-start="" data-end="">
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="types_8h.html#aed49851182122d18313f4d7ececa6e38">   67</a></span><span class="preprocessor">#define PCA_REG(channel, mode, part) \</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#define PCA_REG(channel, mode, part) \</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">    PCA_BASE_REG + ((mode) + (part)) + 4 * (channel) </span></div>
-</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="foldopen" id="foldopen00070" data-start="{" data-end="};">
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9f">   70</a></span><span class="keyword">enum</span> <a class="code hl_enumeration" href="types_8h.html#ac165e9ca56612db365d21455e740cd9f">pca_channel</a> {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa930dd71cfa0acda464e3ae02c897505c">   71</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa930dd71cfa0acda464e3ae02c897505c">PCA_CHANNEL_0</a>,</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fadb38f64a6d2be33b4d468a37248fce98">   72</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fadb38f64a6d2be33b4d468a37248fce98">PCA_CHANNEL_1</a>,</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa87eb35f0c1f725f5938c785dc8aed27c">   73</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa87eb35f0c1f725f5938c785dc8aed27c">PCA_CHANNEL_2</a>,</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa99675d28bd96ec444c45a566a02de222">   74</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa99675d28bd96ec444c45a566a02de222">PCA_CHANNEL_3</a>,</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa22f7ab1dccbb887e3b01601e8f2fc6eb">   75</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa22f7ab1dccbb887e3b01601e8f2fc6eb">PCA_CHANNEL_4</a>,</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa5096d4317400c87b3027073b432ccf8a">   76</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa5096d4317400c87b3027073b432ccf8a">PCA_CHANNEL_5</a>,</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fad6b1c69196170a7b3aadae04d6703e3f">   77</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fad6b1c69196170a7b3aadae04d6703e3f">PCA_CHANNEL_6</a>,</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faf3ae8928d17bb4157b59be04cb4801b3">   78</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faf3ae8928d17bb4157b59be04cb4801b3">PCA_CHANNEL_7</a>,</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faa469b18cbd498a28ff04e761c885e0b4">   79</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faa469b18cbd498a28ff04e761c885e0b4">PCA_CHANNEL_8</a>,</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faa88f8e5802418dfd59bde826ad093fd7">   80</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faa88f8e5802418dfd59bde826ad093fd7">PCA_CHANNEL_9</a>,</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa4386fbfe780118871cfa7bb7f370cc79">   81</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa4386fbfe780118871cfa7bb7f370cc79">PCA_CHANNEL_10</a>,</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa07cafb1ea58890129491ef79eaa1c3ea">   82</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa07cafb1ea58890129491ef79eaa1c3ea">PCA_CHANNEL_11</a>,</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa14318482809c0c1bb5de4adf2c6568e9">   83</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa14318482809c0c1bb5de4adf2c6568e9">PCA_CHANNEL_12</a>,</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faf2249510963fcedd60b843fd1f694fd8">   84</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faf2249510963fcedd60b843fd1f694fd8">PCA_CHANNEL_13</a>,</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faeca21817004558630c8e55f8746e21d4">   85</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9faeca21817004558630c8e55f8746e21d4">PCA_CHANNEL_14</a>,</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fafac5edcdf68e7cfa855ed631cbf620ac">   86</a></span>    <a class="code hl_enumvalue" href="types_8h.html#ac165e9ca56612db365d21455e740cd9fafac5edcdf68e7cfa855ed631cbf620ac">PCA_CHANNEL_15</a>,</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">enum</span> pca_channel {</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    PCA_CHANNEL_0,</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    PCA_CHANNEL_1,</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    PCA_CHANNEL_2,</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    PCA_CHANNEL_3,</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    PCA_CHANNEL_4,</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    PCA_CHANNEL_5,</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    PCA_CHANNEL_6,</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    PCA_CHANNEL_7,</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    PCA_CHANNEL_8,</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    PCA_CHANNEL_9,</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    PCA_CHANNEL_10,</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    PCA_CHANNEL_11,</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    PCA_CHANNEL_12,</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    PCA_CHANNEL_13,</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    PCA_CHANNEL_14,</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    PCA_CHANNEL_15,</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>};</div>
-</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="atypes_8h_html_a0ecf26b576b9a54eca656b9be7ba6a06"><div class="ttname"><a href="types_8h.html#a0ecf26b576b9a54eca656b9be7ba6a06">bool</a></div><div class="ttdeci">uint8_t bool</div><div class="ttdef"><b>Definition</b> types.h:38</div></div>
-<div class="ttc" id="atypes_8h_html_a1c8da993e3b2ea945b90aee4361ad4fc"><div class="ttname"><a href="types_8h.html#a1c8da993e3b2ea945b90aee4361ad4fc">uflags</a></div><div class="ttdeci">unsigned long long uflags</div><div class="ttdef"><b>Definition</b> types.h:23</div></div>
-<div class="ttc" id="atypes_8h_html_a3f7e2bcbb0b4c338f3c4f6c937cd4234"><div class="ttname"><a href="types_8h.html#a3f7e2bcbb0b4c338f3c4f6c937cd4234">u64</a></div><div class="ttdeci">uint64_t u64</div><div class="ttdef"><b>Definition</b> types.h:35</div></div>
-<div class="ttc" id="atypes_8h_html_a48d6cd8e4135fb2ff7e7f2dac84089ec"><div class="ttname"><a href="types_8h.html#a48d6cd8e4135fb2ff7e7f2dac84089ec">i32</a></div><div class="ttdeci">int32_t i32</div><div class="ttdef"><b>Definition</b> types.h:33</div></div>
-<div class="ttc" id="atypes_8h_html_a85cb35fbe5bf2961d7ad5f26814a91a2"><div class="ttname"><a href="types_8h.html#a85cb35fbe5bf2961d7ad5f26814a91a2">i64</a></div><div class="ttdeci">int64_t i64</div><div class="ttdef"><b>Definition</b> types.h:36</div></div>
-<div class="ttc" id="atypes_8h_html_a92c50087ca0e64fa93fc59402c55f8ca"><div class="ttname"><a href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a></div><div class="ttdeci">uint8_t u8</div><div class="ttdef"><b>Definition</b> types.h:26</div></div>
-<div class="ttc" id="atypes_8h_html_a990a63e18bed194495db89943babd662"><div class="ttname"><a href="types_8h.html#a990a63e18bed194495db89943babd662">gpio_statuses</a></div><div class="ttdeci">gpio_statuses</div><div class="ttdef"><b>Definition</b> types.h:43</div></div>
-<div class="ttc" id="atypes_8h_html_a990a63e18bed194495db89943babd662a8bb5c8044f38cdd41f162e70932980ea"><div class="ttname"><a href="types_8h.html#a990a63e18bed194495db89943babd662a8bb5c8044f38cdd41f162e70932980ea">GPIO_ERR_MMAP</a></div><div class="ttdeci">@ GPIO_ERR_MMAP</div><div class="ttdef"><b>Definition</b> types.h:46</div></div>
-<div class="ttc" id="atypes_8h_html_a990a63e18bed194495db89943babd662a95627532e2f71102ac634fa81a4fe066"><div class="ttname"><a href="types_8h.html#a990a63e18bed194495db89943babd662a95627532e2f71102ac634fa81a4fe066">GPIO_ERR_IO_I2C</a></div><div class="ttdeci">@ GPIO_ERR_IO_I2C</div><div class="ttdef"><b>Definition</b> types.h:47</div></div>
-<div class="ttc" id="atypes_8h_html_a990a63e18bed194495db89943babd662aaf52913ae0aa6108502403b3cfc3e1da"><div class="ttname"><a href="types_8h.html#a990a63e18bed194495db89943babd662aaf52913ae0aa6108502403b3cfc3e1da">GPIO_ERR_MEMORY</a></div><div class="ttdeci">@ GPIO_ERR_MEMORY</div><div class="ttdef"><b>Definition</b> types.h:48</div></div>
-<div class="ttc" id="atypes_8h_html_a990a63e18bed194495db89943babd662ac0a8c62ac5759545678dee44b12cc529"><div class="ttname"><a href="types_8h.html#a990a63e18bed194495db89943babd662ac0a8c62ac5759545678dee44b12cc529">GPIO_TIMEOUT</a></div><div class="ttdeci">@ GPIO_TIMEOUT</div><div class="ttdef"><b>Definition</b> types.h:45</div></div>
-<div class="ttc" id="atypes_8h_html_a990a63e18bed194495db89943babd662ac600669d7dff707f9b211cee2bb19111"><div class="ttname"><a href="types_8h.html#a990a63e18bed194495db89943babd662ac600669d7dff707f9b211cee2bb19111">GPIO_SUCCESS</a></div><div class="ttdeci">@ GPIO_SUCCESS</div><div class="ttdef"><b>Definition</b> types.h:44</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9f"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9f">pca_channel</a></div><div class="ttdeci">pca_channel</div><div class="ttdef"><b>Definition</b> types.h:70</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fa07cafb1ea58890129491ef79eaa1c3ea"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa07cafb1ea58890129491ef79eaa1c3ea">PCA_CHANNEL_11</a></div><div class="ttdeci">@ PCA_CHANNEL_11</div><div class="ttdef"><b>Definition</b> types.h:82</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fa14318482809c0c1bb5de4adf2c6568e9"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa14318482809c0c1bb5de4adf2c6568e9">PCA_CHANNEL_12</a></div><div class="ttdeci">@ PCA_CHANNEL_12</div><div class="ttdef"><b>Definition</b> types.h:83</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fa22f7ab1dccbb887e3b01601e8f2fc6eb"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa22f7ab1dccbb887e3b01601e8f2fc6eb">PCA_CHANNEL_4</a></div><div class="ttdeci">@ PCA_CHANNEL_4</div><div class="ttdef"><b>Definition</b> types.h:75</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fa4386fbfe780118871cfa7bb7f370cc79"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa4386fbfe780118871cfa7bb7f370cc79">PCA_CHANNEL_10</a></div><div class="ttdeci">@ PCA_CHANNEL_10</div><div class="ttdef"><b>Definition</b> types.h:81</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fa5096d4317400c87b3027073b432ccf8a"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa5096d4317400c87b3027073b432ccf8a">PCA_CHANNEL_5</a></div><div class="ttdeci">@ PCA_CHANNEL_5</div><div class="ttdef"><b>Definition</b> types.h:76</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fa87eb35f0c1f725f5938c785dc8aed27c"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa87eb35f0c1f725f5938c785dc8aed27c">PCA_CHANNEL_2</a></div><div class="ttdeci">@ PCA_CHANNEL_2</div><div class="ttdef"><b>Definition</b> types.h:73</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fa930dd71cfa0acda464e3ae02c897505c"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa930dd71cfa0acda464e3ae02c897505c">PCA_CHANNEL_0</a></div><div class="ttdeci">@ PCA_CHANNEL_0</div><div class="ttdef"><b>Definition</b> types.h:71</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fa99675d28bd96ec444c45a566a02de222"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fa99675d28bd96ec444c45a566a02de222">PCA_CHANNEL_3</a></div><div class="ttdeci">@ PCA_CHANNEL_3</div><div class="ttdef"><b>Definition</b> types.h:74</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9faa469b18cbd498a28ff04e761c885e0b4"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9faa469b18cbd498a28ff04e761c885e0b4">PCA_CHANNEL_8</a></div><div class="ttdeci">@ PCA_CHANNEL_8</div><div class="ttdef"><b>Definition</b> types.h:79</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9faa88f8e5802418dfd59bde826ad093fd7"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9faa88f8e5802418dfd59bde826ad093fd7">PCA_CHANNEL_9</a></div><div class="ttdeci">@ PCA_CHANNEL_9</div><div class="ttdef"><b>Definition</b> types.h:80</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fad6b1c69196170a7b3aadae04d6703e3f"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fad6b1c69196170a7b3aadae04d6703e3f">PCA_CHANNEL_6</a></div><div class="ttdeci">@ PCA_CHANNEL_6</div><div class="ttdef"><b>Definition</b> types.h:77</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fadb38f64a6d2be33b4d468a37248fce98"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fadb38f64a6d2be33b4d468a37248fce98">PCA_CHANNEL_1</a></div><div class="ttdeci">@ PCA_CHANNEL_1</div><div class="ttdef"><b>Definition</b> types.h:72</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9faeca21817004558630c8e55f8746e21d4"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9faeca21817004558630c8e55f8746e21d4">PCA_CHANNEL_14</a></div><div class="ttdeci">@ PCA_CHANNEL_14</div><div class="ttdef"><b>Definition</b> types.h:85</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9faf2249510963fcedd60b843fd1f694fd8"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9faf2249510963fcedd60b843fd1f694fd8">PCA_CHANNEL_13</a></div><div class="ttdeci">@ PCA_CHANNEL_13</div><div class="ttdef"><b>Definition</b> types.h:84</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9faf3ae8928d17bb4157b59be04cb4801b3"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9faf3ae8928d17bb4157b59be04cb4801b3">PCA_CHANNEL_7</a></div><div class="ttdeci">@ PCA_CHANNEL_7</div><div class="ttdef"><b>Definition</b> types.h:78</div></div>
-<div class="ttc" id="atypes_8h_html_ac165e9ca56612db365d21455e740cd9fafac5edcdf68e7cfa855ed631cbf620ac"><div class="ttname"><a href="types_8h.html#ac165e9ca56612db365d21455e740cd9fafac5edcdf68e7cfa855ed631cbf620ac">PCA_CHANNEL_15</a></div><div class="ttdeci">@ PCA_CHANNEL_15</div><div class="ttdef"><b>Definition</b> types.h:86</div></div>
-<div class="ttc" id="atypes_8h_html_ace9d960e74685e2cd84b36132dbbf8aa"><div class="ttname"><a href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a></div><div class="ttdeci">uint16_t u16</div><div class="ttdef"><b>Definition</b> types.h:29</div></div>
-<div class="ttc" id="atypes_8h_html_ad309dbcaeea13aa602d686964156ea0b"><div class="ttname"><a href="types_8h.html#ad309dbcaeea13aa602d686964156ea0b">i16</a></div><div class="ttdeci">int16_t i16</div><div class="ttdef"><b>Definition</b> types.h:30</div></div>
-<div class="ttc" id="atypes_8h_html_ad8e5ee49dd47723c9d520cb90cb3e00c"><div class="ttname"><a href="types_8h.html#ad8e5ee49dd47723c9d520cb90cb3e00c">usize</a></div><div class="ttdeci">unsigned long usize</div><div class="ttdef"><b>Definition</b> types.h:24</div></div>
-<div class="ttc" id="atypes_8h_html_ae3702327b5f47e83b431e22b33da7b58"><div class="ttname"><a href="types_8h.html#ae3702327b5f47e83b431e22b33da7b58">i8</a></div><div class="ttdeci">int8_t i8</div><div class="ttdef"><b>Definition</b> types.h:27</div></div>
-<div class="ttc" id="atypes_8h_html_aee2194ceed0327529a6d911ec72132d6"><div class="ttname"><a href="types_8h.html#aee2194ceed0327529a6d911ec72132d6">gpio_init_flags</a></div><div class="ttdeci">gpio_init_flags</div><div class="ttdef"><b>Definition</b> types.h:51</div></div>
-<div class="ttc" id="atypes_8h_html_aee2194ceed0327529a6d911ec72132d6a6add92b672913bb2b793c95af8cf02b9"><div class="ttname"><a href="types_8h.html#aee2194ceed0327529a6d911ec72132d6a6add92b672913bb2b793c95af8cf02b9">GPIO_INIT_GPIO</a></div><div class="ttdeci">@ GPIO_INIT_GPIO</div><div class="ttdef"><b>Definition</b> types.h:52</div></div>
-<div class="ttc" id="atypes_8h_html_aee2194ceed0327529a6d911ec72132d6ad24b1cbfb14dfe7cb2e53835f66f6641"><div class="ttname"><a href="types_8h.html#aee2194ceed0327529a6d911ec72132d6ad24b1cbfb14dfe7cb2e53835f66f6641">GPIO_INIT_I2C</a></div><div class="ttdeci">@ GPIO_INIT_I2C</div><div class="ttdef"><b>Definition</b> types.h:53</div></div>
-<div class="ttc" id="atypes_8h_html_afaa62991928fb9fb18ff0db62a040aba"><div class="ttname"><a href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a></div><div class="ttdeci">uint32_t u32</div><div class="ttdef"><b>Definition</b> types.h:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="types_8h.html">types.h</a></li>
+    <li class="navelem"><b>types.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

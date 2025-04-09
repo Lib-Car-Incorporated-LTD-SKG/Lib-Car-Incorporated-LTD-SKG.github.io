@@ -31,11 +31,10 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="LibCarIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">libCar<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">libCar<span id="projectnumber">&#160;1</span>
    </div>
-   <div id="projectbrief">A library for programming a car in GTA V</div>
+   <div id="projectbrief">The world&#39;s best car library which is better than tesla</div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -107,7 +106,7 @@ $(function(){initNavTree('i2c_8h_source.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">i2c.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="i2c_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">/***************************************************************</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* Class:: CSC-615-01 Spring 2024</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">* Name:: Ryan Algazi</span></div>
@@ -125,40 +124,32 @@ $(function(){initNavTree('i2c_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#ifndef GPIO_I2C_H</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define GPIO_I2C_H</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;<a class="code" href="types_8h.html">types.h</a>&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;types.h&quot;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structgpio__i2c__state.html">gpio_i2c_state</a> <a class="code hl_struct" href="structgpio__i2c__state.html">gpio_i2c_state</a>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structgpio__state.html">gpio_state</a> <a class="code hl_struct" href="structgpio__state.html">gpio_state</a>;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keywordtype">int</span> <a class="code hl_function" href="i2c_8h.html#a5f5af7fe7f5e5243d4b5340cd3478609">i2c_init</a>(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keywordtype">int</span> i2c_init(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state);</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keywordtype">int</span> <a class="code hl_function" href="i2c_8h.html#a52086781e516c408ae849bfa5e0bb058">i2c_deinit</a>(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keywordtype">int</span> i2c_deinit(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state);</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keywordtype">int</span> <a class="code hl_function" href="i2c_8h.html#aad35e41d406f19f684d62092992f4c4d">i2c_write_bytes</a>(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> * buf, <a class="code hl_typedef" href="types_8h.html#ad8e5ee49dd47723c9d520cb90cb3e00c">usize</a> len);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keywordtype">int</span> i2c_write_bytes(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state, <span class="keyword">const</span> u8 * buf, usize len);</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keywordtype">int</span> <a class="code hl_function" href="i2c_8h.html#a3d66e0eab3e7c7535e7f6099ce231954">i2c_read_bytes</a>(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state, <a class="code hl_typedef" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> reg, <a class="code hl_typedef" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> * buf, <a class="code hl_typedef" href="types_8h.html#ad8e5ee49dd47723c9d520cb90cb3e00c">usize</a> len);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keywordtype">int</span> i2c_read_bytes(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state, u8 reg, u8 * buf, usize len);</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keywordtype">int</span> <a class="code hl_function" href="i2c_8h.html#a44b52b276cc3c2b073d3bbf7a54c3d0e">i2c_init_slave_address</a>(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state, <a class="code hl_typedef" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> addr);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keywordtype">int</span> i2c_init_slave_address(<a class="code hl_struct" href="structgpio__state.html">gpio_state</a> * state, u8 addr);</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="ai2c_8h_html_a3d66e0eab3e7c7535e7f6099ce231954"><div class="ttname"><a href="i2c_8h.html#a3d66e0eab3e7c7535e7f6099ce231954">i2c_read_bytes</a></div><div class="ttdeci">int i2c_read_bytes(gpio_state *state, u8 reg, u8 *buf, usize len)</div><div class="ttdoc">Reads all the bytes from i2c device into buf.</div><div class="ttdef"><b>Definition</b> i2c.c:73</div></div>
-<div class="ttc" id="ai2c_8h_html_a44b52b276cc3c2b073d3bbf7a54c3d0e"><div class="ttname"><a href="i2c_8h.html#a44b52b276cc3c2b073d3bbf7a54c3d0e">i2c_init_slave_address</a></div><div class="ttdeci">int i2c_init_slave_address(gpio_state *state, u8 addr)</div><div class="ttdoc">set the currently active slave address (or controller)</div><div class="ttdef"><b>Definition</b> i2c.c:84</div></div>
-<div class="ttc" id="ai2c_8h_html_a52086781e516c408ae849bfa5e0bb058"><div class="ttname"><a href="i2c_8h.html#a52086781e516c408ae849bfa5e0bb058">i2c_deinit</a></div><div class="ttdeci">int i2c_deinit(gpio_state *state)</div><div class="ttdoc">dont call this function I KNOW YOU WNATZ TO</div><div class="ttdef"><b>Definition</b> i2c.c:47</div></div>
-<div class="ttc" id="ai2c_8h_html_a5f5af7fe7f5e5243d4b5340cd3478609"><div class="ttname"><a href="i2c_8h.html#a5f5af7fe7f5e5243d4b5340cd3478609">i2c_init</a></div><div class="ttdeci">int i2c_init(gpio_state *state)</div><div class="ttdoc">initializes i2c state (DO NOT CALL THIS DIRECTLY)</div><div class="ttdef"><b>Definition</b> i2c.c:29</div></div>
-<div class="ttc" id="ai2c_8h_html_aad35e41d406f19f684d62092992f4c4d"><div class="ttname"><a href="i2c_8h.html#aad35e41d406f19f684d62092992f4c4d">i2c_write_bytes</a></div><div class="ttdeci">int i2c_write_bytes(gpio_state *state, const u8 *buf, usize len)</div><div class="ttdoc">Writes all the bytes in buf to the current i2c controller.</div><div class="ttdef"><b>Definition</b> i2c.c:63</div></div>
 <div class="ttc" id="astructgpio__i2c__state_html"><div class="ttname"><a href="structgpio__i2c__state.html">gpio_i2c_state</a></div><div class="ttdef"><b>Definition</b> i2c.c:25</div></div>
 <div class="ttc" id="astructgpio__state_html"><div class="ttname"><a href="structgpio__state.html">gpio_state</a></div><div class="ttdef"><b>Definition</b> gpio.h:26</div></div>
-<div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div></div>
-<div class="ttc" id="atypes_8h_html_a92c50087ca0e64fa93fc59402c55f8ca"><div class="ttname"><a href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a></div><div class="ttdeci">uint8_t u8</div><div class="ttdef"><b>Definition</b> types.h:26</div></div>
-<div class="ttc" id="atypes_8h_html_ad8e5ee49dd47723c9d520cb90cb3e00c"><div class="ttname"><a href="types_8h.html#ad8e5ee49dd47723c9d520cb90cb3e00c">usize</a></div><div class="ttdeci">unsigned long usize</div><div class="ttdef"><b>Definition</b> types.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="i2c_8h.html">i2c.h</a></li>
+    <li class="navelem"><b>i2c.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>
